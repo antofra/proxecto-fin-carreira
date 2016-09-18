@@ -1,0 +1,16 @@
+<li class="dropdown">
+	<a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+		<span>
+			<span class="glyphicon glyphicon-th-list"></span>
+			<span class="hidden-sm" translate="menu.entidades">Entidades</span>
+			<b class="caret"></b>
+		</span>
+	</a>
+	<ul class="dropdown-menu" ng-if="etCtrl.globales.length > 0">
+		<li ng-repeat="entidad in etCtrl.globales">
+ 			<a href="" ui-sref="{{entidad}}.list">
+ 				<span>{{entidad}}</span>
+			</a>
+ 		</li>
+ 	</ul>
+</li>

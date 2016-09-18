@@ -1,0 +1,31 @@
+locale:
+    default: es
+
+swagger:
+    title: Concursos
+    description:
+    termsOfServiceUrl:
+    contact:
+    license:
+    licenseUrl:
+    
+server:
+    port: 9000
+
+jwtSecurity:
+    security:
+        authentication:
+            jwt:
+                secret: my-secret-token-to-change-in-production
+                # Token is valid 24 hours
+                tokenValidityInSeconds: 86400
+
+spring:
+  datasource:
+    url: jdbc:h2:tcp://localhost/~/concursos;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE
+    username: sa
+    password:
+    driver-class-name: org.h2.Driver
+    platform: h2
+    
+    

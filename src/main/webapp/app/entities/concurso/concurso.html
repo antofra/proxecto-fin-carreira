@@ -1,0 +1,42 @@
+<div class="container-fluid">
+
+	<div class="row-fluid">
+		<h1>{{$ctrl.data.nombre}}</h1>
+		
+		<div class="pull-right">
+			<button class="btn btn-primary" type="button" ui-sref="edicion.nueva({concurso:$ctrl.data})">
+				<i class="glyphicon glyphicon-plus"></i>
+				<span translate="acciones.nueva_edicion">Nueva Edicion</span>
+			</button>
+		</div>
+	</div>
+</div>
+
+<hr>
+
+<div class="container-fluid">
+	<div class="row-fluid" ng-if="$ctrl.data.ediciones.length > 0">
+		<!-- Title -->
+		<div class="row">
+		    <div class="col-md-12">
+		        <h3 translate="entidad.edicion.title">Ediciones</h3>
+		    </div>
+		</div>
+		<!-- /.row -->
+		
+		<div class="row-fluid text-center">
+			<div class="col-md-3 col-sm-6" ng-repeat="edicion in $ctrl.data.ediciones | orderBy:'fechaCelebracion'">
+			    <div class="thumbnail">
+			        <img src="http://placehold.it/800x500" alt="">
+			        <div class="caption">
+			            <h3>{{edicion.descripcion}}</h3>
+			            <p>{{edicion.fechaCelebracion}}</p>
+			            <p>
+			                <a ui-sref="edicion.get({id : {{edicion.id}}})" class="btn btn-primary">Ver</a>
+			            </p>
+			        </div>
+			    </div>
+			</div>
+		</div>
+	</div>
+</div>

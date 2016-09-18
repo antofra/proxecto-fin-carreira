@@ -1,0 +1,42 @@
+<h1 translate="entidad.asociada.title">Personas asociadas</h1>
+
+<button class="btn btn-default" ng-click="$ctrl.showHideForm()">Crear Asociada</button>
+<asociada-form ng-show="$ctrl.showForm" on-create="$ctrl.onCreateElement(data)" on-close="$ctrl.showHideForm()"></asociada-form>
+
+<table ng-table="$ctrl.tableParams" class="table" show-filter="true">
+    <tr ng-repeat="asociada in $data">
+        <td data-title="'entidad.asociada.nombre' | translate" filter="{ nombre: 'text'}" sortable="'nombre'">
+            <input ng-if="asociada.edit" type="text" ng-model="asociada.nombre"></input>
+            <span ng-if="!asociada.edit">{{asociada.nombre}}</span>
+        </td>
+        <td data-title="'entidad.asociada.apellidos' | translate" filter="{ apellidos: 'text'}" sortable="'apellidos'">
+            <input ng-if="asociada.edit" type="text" ng-model="asociada.apellidos"></input>
+            <span ng-if="!asociada.edit">{{asociada.apellidos}}</span>
+        </td>
+        <td data-title="'entidad.asociada.dni' | translate" filter="{ dni: 'text'}" sortable="'dni'">
+            <input ng-if="asociada.edit" type="text" ng-model="asociada.dni"></input>
+            <span ng-if="!asociada.edit">{{asociada.dni}}</span>
+        </td>
+        <td>
+        	<div class="pull-right">
+        		<div ng-if="asociada.edit">
+        			<button type="button" class="btn btn-default" ng-click="$ctrl.cancelEdit(asociada)">
+						<i class="glyphicon glyphicon-repeat"></i>
+					</button>
+					<button class="btn btn-primary" type="button" ng-click="$ctrl.save(asociada)">
+		            	<i class="glyphicon glyphicon-ok"></i>
+		            </button>
+        		</div>
+        		<div ng-if="!asociada.edit">
+        			<button class="btn btn-primary" type="button" ng-click="$ctrl.edit(asociada)">
+		            	<i class="glyphicon glyphicon-pencil"></i>
+		            </button>
+		            
+		            <button class="btn btn-danger" type="button" ng-click="$ctrl.remove(asociada)">
+		            	<i class="glyphicon glyphicon-remove"></i>
+		            </button>
+        		</div>
+            </div>
+        </td>
+    </tr>
+</table>

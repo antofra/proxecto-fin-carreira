@@ -1,0 +1,439 @@
+[{
+  "nombre": "Oscuacs 2015",
+  "programas": [
+  	{
+  		"nombre" : "A fume de carozo",
+	  	"email" : "afumedecarozo@mail.es",
+	  	"integrantes" : [
+	    	{
+	    		"nombre" : "Roberto",
+	    		"apellidos" : "Catoira",
+	    		"dni" : "12345678A"
+	    	},
+	    	{
+	    		"nombre" : "Martín",
+	    		"apellidos" : "Fuentefría Oróns",
+	    		"dni" : "12345678A"
+	    	}
+	    	
+	    ]
+    },
+    "Alegría": [
+      "Isa Lema",
+      "Bea Ulalume",
+      "Mariano F Bugalú",
+      "Tomi Desastre"
+    ],
+    "Baranda": [
+      "Lucia Pita",
+      "Silvia Touza",
+      "Javier Sal"
+    ],
+    "Café con gotas": [
+      "Verónica Lorenzo Pedrouzo",
+      "Pablo Rubén Fernández Pérez"
+    ],
+    "Circo Pirata": [
+      "Sebastián Esteban"
+    ],
+    "Cuac Está a Pasar": [
+      "Brais Garcia Fernández",
+      "David Soto",
+      "Héctor Tejón",
+      "Carlos Rios",
+      "Maria Castelo"
+    ],
+    "Dentro de un orden": [
+      "Lucas Díaz Vázquez",
+      "Juan Suarez García",
+      "Benito Martín Becares",
+      "Ángel Lousas Longarela",
+      "Adrián Rodríguez Pernas",
+      "Alejandro Docampo García"
+    ],
+    "El Desinformativo": [
+      "Ozzy De Castro",
+      "Jorge Garou Catoira"
+    ],
+    "Falso Nueve": [
+      "Roberto Ansede",
+      "Álex Varela ",
+      "Pablo Hermida ",
+      "Daniel Villadangos",
+      "Chusco Somoza",
+      "Manav Gambhir"
+    ],
+    "Fantasma Accidental": [
+      "Jose Lemur Abelairas"
+    ],
+    "Folk in Trío": [
+      "Antonio Prado",
+      "Bea Mariño",
+      "Roberto Aller"
+    ],
+    "Manda Carallo": [
+      "Iván Loureiro",
+      "Xavier Loureiro",
+      "Néstor Liñares",
+      "Juan"
+    ],
+    "New Age": [
+      "Mary Carmen Vivas",
+      "Enrique do Rosario",
+      "Patricia Romasanta Louro",
+      "Kevin Martinez",
+      "Jessica Pazos",
+      "Erika Vázquez"
+    ],
+    "Ondas do Cárcere": [
+      "Tono Galán",
+      "Laura Sánchez",
+      "Alberto Fortes",
+      "Carmen Cotelo",
+      "Pepe Lado"
+    ],
+    "Orion 2punto1": [
+      "Rubén Martínez Morgado"
+    ],
+    "Radioactiva": [
+      "Clara de Vega Fernández",
+      "Alba Puente Fernández"
+    ],
+    "Radio Prometea": [],
+    "Recendo": [
+      "Roberto Catoira",
+      "Antonio Brea",
+      "Gema Millán",
+      "Marta López",
+      "Uxía Vázquez",
+      "Javier Pereira"
+    ],
+    "Reversión": [
+      "Laura Sánchez",
+      "Tono Galán"
+    ],
+    "RH+": [],
+    "RqueR": [
+      "Rocío Suárez",
+      "Rebeca Fernández"
+    ],
+    "Simplemente Gente": [
+      "Óscar García González",
+      "Carlos Reguera",
+      "Montserrat Verea Pellico",
+      "Rubén Sánchez Imizcoz"
+    ],
+    "Sin Etiquetas": [
+      "Adrián López Rosales",
+      "Jorge Graña",
+      "Alejandro Sánchez Bardanca",
+      "Antonio Pedrouzo Aranda"
+    ],
+    "trankimagazine": [
+      "Pepa Díaz",
+      "Carlos Reguera"
+    ],
+    "Xeración Bravú": [
+      "Rodri Gil",
+      "Martín Arceo",
+      "Iago Prada",
+      "Geni Rico",
+      "Pablo Taboada",
+      "Javi Lopa",
+      "Jorge Boquete"
+    ]
+  },
+  "categorias": {
+    "Mejor producción": [
+      "A fume de carozo",
+      "Alegría",
+      "Baranda",
+      "Café con gotas",
+      "Circo Pirata",
+      "Cuac Está a Pasar",
+      "Dentro de un orden",
+      "El Desinformativo",
+      "Falso Nueve",
+      "Fantasma Accidental",
+      "Folk in Trío",
+      "Manda Carallo",
+      "New Age",
+      "Ondas do Cárcere",
+      "Orion 2punto1",
+      "Radioactiva",
+      "Radio Prometea",
+      "Recendo",
+      "Reversión",
+      "RH+",
+      "RqueR",
+      "Simplemente Gente",
+      "Sin Etiquetas",
+      "trankimagazine",
+      "Xeración Bravú"
+    ],
+    "Mejor promoción": [
+      "A fume de carozo",
+      "Alegría",
+      "Baranda",
+      "Café con gotas",
+      "Circo Pirata",
+      "Cuac Está a Pasar",
+      "Dentro de un orden",
+      "El Desinformativo",
+      "Falso Nueve",
+      "Fantasma Accidental",
+      "Folk in Trío",
+      "Manda Carallo",
+      "New Age",
+      "Ondas do Cárcere",
+      "Orion 2punto1",
+      "Radioactiva",
+      "Radio Prometea",
+      "Recendo",
+      "Reversión",
+      "RH+",
+      "RqueR",
+      "Simplemente Gente",
+      "Sin Etiquetas",
+      "trankimagazine",
+      "Xeración Bravú"
+    ],
+    "Mejor iniciativa comunitaria": [
+      "Ar de Coruña",
+      "Ciencia na Rúa",
+      "Cobertura Eleccións Municipais",
+      "Cobertura Eleccións UDC"
+    ],
+    "Mejor técnico novel": [
+      "Baranda",
+      "New Age",
+      "Radioactiva",
+      "Xeración Bravú"
+    ],
+    "Mejor técnico": [
+      "A fume de carozo",
+      "Alegría",
+      "Baranda",
+      "Café con gotas",
+      "Circo Pirata",
+      "Cuac Está a Pasar",
+      "Dentro de un orden",
+      "El Desinformativo",
+      "Falso Nueve",
+      "Fantasma Accidental",
+      "Folk in Trío",
+      "Manda Carallo",
+      "New Age",
+      "Ondas do Cárcere",
+      "Orion 2punto1",
+      "Radioactiva",
+      "Radio Prometea",
+      "Recendo",
+      "Reversión",
+      "RH+",
+      "RqueR",
+      "Simplemente Gente",
+      "Sin Etiquetas",
+      "trankimagazine",
+      "Xeración Bravú"
+    ],
+    "Mejor locutor novel": [
+      "Javier Sal",
+      "Enrique do Rosario",
+      "Kevin Martinez",
+      "Rodri Gil",
+      "Martín Arceo",
+      "Iago Prada",
+      "Geni Rico",
+      "Pablo Taboada",
+      "Javi Lopa",
+      "Jorge Boquete"
+    ],
+    "Mejor locutora novel": [
+      "Lucia Pita",
+      "Silvia Touza",
+      "Mary Carmen Vivas",
+      "Patricia Romasanta Louro",
+      "Jessica Pazos",
+      "Erika Vázquez",
+      "Clara de Vega Fernández",
+      "Alba Puente Fernández"
+    ],
+    "Mejor locutor": [
+      "Mariano F Bugalú",
+      "Tomi Desastre",
+      "Javier Sal",
+      "Pablo Rubén Fernández Pérez",
+      "Sebastián Esteban",
+      "Brais Garcia Fernández",
+      "David Soto",
+      "Héctor Tejón",
+      "Carlos Rios",
+      "Lucas Díaz Vázquez",
+      "Juan Suarez García",
+      "Benito Martín Becares",
+      "Ángel Lousas Longarela",
+      "Adrián Rodríguez Pernas",
+      "Alejandro Docampo García",
+      "Ozzy De Castro",
+      "Jorge Garou Catoira",
+      "Roberto Ansede",
+      "Álex Varela ",
+      "Pablo Hermida ",
+      "Daniel Villadangos",
+      "Chusco Somoza",
+      "Manav Gambhir",
+      "Jose Lemur Abelairas",
+      "Antonio Prado",
+      "Roberto Aller",
+      "Iván Loureiro",
+      "Xavier Loureiro",
+      "Néstor Liñares",
+      "Juan",
+      "Enrique do Rosario",
+      "Kevin Martinez",
+      "Tono Galán",
+      "Alberto Fortes",
+      "Pepe Lado",
+      "Rubén Martínez Morgado",
+      "Roberto Catoira",
+      "Antonio Brea",
+      "Javier Pereira",
+      "Óscar García González",
+      "Carlos Reguera",
+      "Rubén Sánchez Imizcoz",
+      "Adrián López Rosales",
+      "Jorge Graña",
+      "Alejandro Sánchez Bardanca",
+      "Antonio Pedrouzo Aranda",
+      "Rodri Gil",
+      "Martín Arceo",
+      "Iago Prada",
+      "Geni Rico",
+      "Pablo Taboada",
+      "Javi Lopa",
+      "Jorge Boquete"
+    ],
+    "Mejor locutora": [
+      "Isa Lema",
+      "Bea Ulalume",
+      "Lucia Pita",
+      "Silvia Touza",
+      "Verónica Lorenzo Pedrouzo",
+      "Maria Castelo",
+      "Bea Mariño",
+      "Mary Carmen Vivas",
+      "Patricia Romasanta Louro",
+      "Jessica Pazos",
+      "Erika Vázquez",
+      "Laura Sánchez",
+      "Carmen Cotelo",
+      "Clara de Vega Fernández",
+      "Alba Puente Fernández",
+      "Gema Millán",
+      "Marta López",
+      "Uxía Vázquez",
+      "Laura Sánchez",
+      "Rocío Suárez",
+      "Rebeca Fernández",
+      "Montserrat Verea Pellico",
+      "Pepa Díaz"
+    ],
+    "Mejor programa divulgativo": [
+      "A fume de carozo",
+      "Alegría",
+      "Baranda",
+      "Café con gotas",
+      "Circo Pirata",
+      "Cuac Está a Pasar",
+      "Dentro de un orden",
+      "El Desinformativo",
+      "Falso Nueve",
+      "Fantasma Accidental",
+      "Folk in Trío",
+      "Manda Carallo",
+      "Mi Rollo es el Rock",
+      "New Age",
+      "Ondas do Cárcere",
+      "Orion 2punto1",
+      "Radioactiva",
+      "Radio Prometea",
+      "Recendo",
+      "Reversión",
+      "RH+",
+      "RqueR",
+      "Simplemente Gente",
+      "Sin Etiquetas",
+      "trankimagazine",
+      "Xeración Bravú"
+    ],
+    "Mejor programa social/politico": [
+      "A fume de carozo",
+      "Alegría",
+      "Baranda",
+      "Café con gotas",
+      "Circo Pirata",
+      "Cuac Está a Pasar",
+      "Dentro de un orden",
+      "El Desinformativo",
+      "Falso Nueve",
+      "Fantasma Accidental",
+      "Folk in Trío",
+      "Manda Carallo",
+      "Mi Rollo es el Rock",
+      "New Age",
+      "Ondas do Cárcere",
+      "Orion 2punto1",
+      "Radioactiva",
+      "Radio Prometea",
+      "Recendo",
+      "Reversión",
+      "RH+",
+      "RqueR",
+      "Simplemente Gente",
+      "Sin Etiquetas",
+      "trankimagazine",
+      "Xeración Bravú"
+    ],
+    "Mejor programa musical": [
+      "Folk in Trío",
+      "Fantasma Accidental",
+      "Orion 2punto1",
+      "Reversión"
+    ],
+    "Mejor programa novel": [
+      "Baranda",
+      "New Age",
+      "Radioactiva",
+      "Xeración Bravú"
+    ],
+    "Mejor programa": [
+      "A fume de carozo",
+      "Alegría",
+      "Baranda",
+      "Café con gotas",
+      "Circo Pirata",
+      "Cuac Está a Pasar",
+      "Dentro de un orden",
+      "El Desinformativo",
+      "Falso Nueve",
+      "Fantasma Accidental",
+      "Folk in Trío",
+      "Manda Carallo",
+      "Mi Rollo es el Rock",
+      "New Age",
+      "Ondas do Cárcere",
+      "Orion 2punto1",
+      "Radioactiva",
+      "Radio Prometea",
+      "Recendo",
+      "Reversión",
+      "RH+",
+      "RqueR",
+      "Simplemente Gente",
+      "Sin Etiquetas",
+      "trankimagazine",
+      "Xeración Bravú"
+    ]
+  }
+}]

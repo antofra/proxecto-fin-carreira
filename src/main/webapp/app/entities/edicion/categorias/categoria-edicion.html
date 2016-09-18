@@ -1,0 +1,33 @@
+<div class="container-fluid">
+	<div class="col-md-3">
+		<div>
+			<label>Tipos:</label>
+			<div>
+				<select ng-options="tipoParticipante as tipoParticipante for tipoParticipante in $ctrl.tiposParticipante" 
+					ng-model="$ctrl.tipoParticipante">
+				</select>
+			</div>
+		</div>
+		<div>
+			<label>Participantes:</label>
+			<div id="multiselect_{{categoriaEdicion.categoria.id}}" ng-dropdown-multiselect="" 
+								options="$ctrl.candidatos[$ctrl.tipoParticipante]"
+								selected-model="$ctrl.categoriaEdicion.participantes"
+								extra-settings="$ctrl.candidatos.settings"></div>
+		</div>
+	</div>
+	<div class="col-md-9">
+		<participante-categoria-edicion-list
+			participantes="$ctrl.categoriaEdicion.participantes"
+			voto="$ctrl.categoriaEdicion.voto">
+		</participante-categoria-edicion-list>
+	</div>
+</div>
+
+<hr>
+
+<div class="pull-right">
+	<button type="button" class="btn btn-primary">
+		asdnas
+	</button>
+</div>

@@ -1,0 +1,44 @@
+<div class="row-fluid">
+	<h3>
+		<span translate="entidad.programa.title">Programas</span>
+		<i ng-class="{'glyphicon-chevron-up' : $ctrl.show, 'glyphicon-chevron-down' : !$ctrl.show}" class="glyphicon pull-right" ng-click="$ctrl.show = !$ctrl.show"></i>
+	</h3>
+</div>
+
+<hr>
+
+<div class="container-fluid" ng-show="$ctrl.show">
+	<table ng-table-dynamic="$ctrl.tableParams with $ctrl.cols" class="table table-condensed table-striped table-bordered" show-group="false">
+		<tr class="ng-table-group" ng-repeat-start="programa in $groups">
+			  <td>
+			  	<input type="checkbox" ng-model="programa.data[0].selected" ng-change="$ctrl.selectPrograma(programa.data[0])"></input>
+			  </td>
+	          <td colspan="5" title="nombre">
+	            <a href="" ng-click="programa.$hideRows = !programa.$hideRows">
+	              <span class="glyphicon" ng-class="{ 'glyphicon-chevron-right': programa.$hideRows, 'glyphicon-chevron-down': !programa.$hideRows }"></span>
+	              <strong>{{ programa.value }}</strong>
+	            </a>
+	          </td>
+        </tr>
+        <tr ng-hide="programa.$hideRows" ng-repeat="integrante in programa.data[0].integrantes" ng-repeat-end>
+        	<td ng-if="$first" rowspan="{{programa.data[0].integrantes.length}}">
+        		<p>
+        			<a ng-disabled="!programa.data[0].selected" translate="acciones.seleccionar_todos" 
+        				ng-click="$ctrl.checkAllIntegrantes(programa.data[0])">Todos</a>
+        			/
+        			<a ng-disabled="!programa.data[0].selected" translate="acciones.seleccionar_ninguno" 
+        				ng-click="$ctrl.uncheckAllIntegrantes(programa.data[0])">Ninguno</a>
+        		</p>
+        	</td>
+        	<td>
+        		<input type="checkbox" ng-model="integrante.selected" ng-disabled="!programa.data[0].selected" ng-change="$ctrl.selectIntegrante(programa.data[0], integrante)"></input>
+        	</td>
+        	<td>
+        		{{integrante.asociada.nombre}} {{integrante.asociada.apellidos}}
+        	</td>
+          	<td class="text-center" ng-repeat="rol in $ctrl.roles">
+        		<input type="checkbox" data-checklist-model="integrante.roles" data-checklist-value="rol" ng-disabled="!integrante.selected"></input>
+    		</td>
+    	</tr>
+	</table>
+</div>

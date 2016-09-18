@@ -1,0 +1,1122 @@
+[
+	{
+		"nombre" : "A fume de carozo",
+	  	"direccionCorreo" : "afumedecarozo@mail.es",
+	  	"integrantes" : [
+			{
+		   		"asociada" : {
+		   			"nombre" : "Roberto",
+		   			"apellidos" : "Catoira",
+		   			"dni" : "12345678A"
+		   		},
+		   		"roles" : [
+		   			{
+		   				"rol" : "tecnico"
+		   			}
+		   		]
+	    	},
+	    	{
+	    		"asociada" : {
+	    			"nombre" : "Martín",
+		    		"apellidos" : "Fuentefría Oróns",
+		   			"dni" : "12345678A"
+		   		},
+		   		"roles" : [
+		   			{
+		   				"rol" : "locutor"
+		   			}
+		   		]
+		   	}
+		]
+	},
+	{
+		"nombre" : "Alegría",
+	  	"direccionCorreo" : "alegria@mail.es",
+	  	"integrantes" : [
+			{
+		   		"asociada" : {
+		   			"nombre" : "Isa",
+		   			"apellidos" : "Lema",
+		   			"dni" : "12345678A"
+		   		},
+		   		"roles" : [
+		   			{
+		   				"rol" : "locutor"
+		   			}
+		   		]
+	    	},
+	    	{
+	    		"asociada" : {
+	    			"nombre" : "Bea",
+		    		"apellidos" : "Ulalume",
+		   			"dni" : "12345678A"
+		   		},
+		   		"roles" : [
+		   			{
+		   				"rol" : "locutor"
+		   			}
+		   		]
+		   	},
+	    	{
+	    		"asociada" : {
+	    			"nombre" : "Mariano",
+		    		"apellidos" : "Fernández Cabarcos",
+		   			"dni" : "12345678A"
+		   		},
+		   		"roles" : [
+		   			{
+		   				"rol" : "locutor"
+		   			}
+		   		]
+		   	},
+	    	{
+	    		"asociada" : {
+	    			"nombre" : "Tomi",
+		    		"apellidos" : "Desastre",
+		   			"dni" : "12345678A"
+		   		},
+		   		"roles" : [
+		   			{
+		   				"rol" : "locutor"
+		   			}
+		   		]
+		   	}
+		]
+	},
+	{
+		"nombre" : "Baranda",
+	  	"direccionCorreo" : "baranda@mail.es",
+	  	"integrantes" : [
+			{
+		   		"asociada" : {
+		   			"nombre" : "Lucía",
+		   			"apellidos" : "Pita",
+		   			"dni" : "12345678A"
+		   		},
+		   		"roles" : [
+		   			{
+		   				"rol" : "locutor"
+		   			}
+		   		]
+	    	},
+	    	{
+		   		"asociada" : {
+		   			"nombre" : "Silvia",
+		   			"apellidos" : "Touza",
+		   			"dni" : "12345678A"
+		   		},
+		   		"roles" : [
+		   			{
+		   				"rol" : "locutor"
+		   			}
+		   		]
+	    	},
+	    	{
+		   		"asociada" : {
+		   			"nombre" : "Javier",
+		   			"apellidos" : "Sal",
+		   			"dni" : "12345678A"
+		   		},
+		   		"roles" : [
+		   			{
+		   				"rol" : "locutor"
+		   			}
+		   		]
+	    	}
+		]
+	},
+	{
+		"nombre" : "Café con gotas",
+	  	"direccionCorreo" : "cafecongotas@mail.es",
+	  	"integrantes" : [
+			{
+		   		"asociada" : {
+		   			"nombre" : "Verónica",
+		   			"apellidos" : "Lorenzo Pedrouzo",
+		   			"dni" : "12345678A"
+		   		},
+		   		"roles" : [
+		   			{
+		   				"rol" : "locutor"
+		   			}
+		   		]
+	    	},
+	    	{
+		   		"asociada" : {
+		   			"nombre" : "Pablo Rubén",
+		   			"apellidos" : "Fernández Pérez",
+		   			"dni" : "12345678A"
+		   		},
+		   		"roles" : [
+		   			{
+		   				"rol" : "locutor"
+		   			},
+		   			{
+		   				"rol" : "tecnico"
+		   			}
+		   		]
+	    	}
+		]
+	},
+	{
+		"nombre" : "Circo Pirata",
+	  	"direccionCorreo" : "circopirata@mail.es",
+	  	"integrantes" : [
+			{
+		   		"asociada" : {
+		   			"nombre" : "Sebastián",
+		   			"apellidos" : "Esteban",
+		   			"dni" : "12345678A"
+		   		},
+		   		"roles" : [
+		   			{
+		   				"rol" : "locutor"
+		   			}
+		   		]
+	    	}
+		]
+	},    
+	{
+		"nombre" : "Cuac Está a Pasar",
+	  	"direccionCorreo" : "cuacestaapasar@mail.es",
+	  	"integrantes" : [
+			{
+		   		"asociada" : {
+		   			"nombre" : "Brais",
+		   			"apellidos" : "García Fernández",
+		   			"dni" : "12345678A"
+		   		},
+		   		"roles" : [
+		   			{
+		   				"rol" : "locutor"
+		   			}
+		   		]
+	    	},
+	    	{
+		   		"asociada" : {
+		   			"nombre" : "David",
+		   			"apellidos" : "Soto",
+		   			"dni" : "12345678A"
+		   		},
+		   		"roles" : [
+		   			{
+		   				"rol" : "locutor"
+		   			}
+		   		]
+	    	},
+	    	{
+		   		"asociada" : {
+		   			"nombre" : "Héctor",
+		   			"apellidos" : "Tejón",
+		   			"dni" : "12345678A"
+		   		},
+		   		"roles" : [
+		   			{
+		   				"rol" : "locutor"
+		   			}
+		   		]
+	    	},
+	    	{
+		   		"asociada" : {
+		   			"nombre" : "Carlos",
+		   			"apellidos" : "Ríos",
+		   			"dni" : "12345678A"
+		   		},
+		   		"roles" : [
+		   			{
+		   				"rol" : "locutor"
+		   			}
+		   		]
+	    	},
+	    	{
+		   		"asociada" : {
+		   			"nombre" : "María",
+		   			"apellidos" : "Castelo",
+		   			"dni" : "12345678A"
+		   		},
+		   		"roles" : [
+		   			{
+		   				"rol" : "locutor"
+		   			}
+		   		]
+	    	}
+		]
+	},
+	{
+		"nombre" : "Dentro de un orden",
+	  	"direccionCorreo" : "dentrodeunorden@mail.es",
+	  	"integrantes" : [
+			{
+		   		"asociada" : {
+		   			"nombre" : "Lucas",
+		   			"apellidos" : "Díaz Vázquez",
+		   			"dni" : "12345678A"
+		   		},
+		   		"roles" : [
+		   			{
+		   				"rol" : "locutor"
+		   			}
+		   		]
+	    	},
+	    	{
+		   		"asociada" : {
+		   			"nombre" : "Juan",
+		   			"apellidos" : "Suárez García",
+		   			"dni" : "12345678A"
+		   		},
+		   		"roles" : [
+		   			{
+		   				"rol" : "locutor"
+		   			}
+		   		]
+	    	},
+	    	{
+		   		"asociada" : {
+		   			"nombre" : "Benito",
+		   			"apellidos" : "Martín Becares",
+		   			"dni" : "12345678A"
+		   		},
+		   		"roles" : [
+		   			{
+		   				"rol" : "locutor"
+		   			}
+		   		]
+	    	},
+	    	{
+		   		"asociada" : {
+		   			"nombre" : "Ángel",
+		   			"apellidos" : "Lousas Longarela",
+		   			"dni" : "12345678A"
+		   		},
+		   		"roles" : [
+		   			{
+		   				"rol" : "locutor"
+		   			}
+		   		]
+	    	},
+	    	{
+		   		"asociada" : {
+		   			"nombre" : "Adrián",
+		   			"apellidos" : "Rodríguez Pernas",
+		   			"dni" : "12345678A"
+		   		},
+		   		"roles" : [
+		   			{
+		   				"rol" : "locutor"
+		   			}
+		   		]
+	    	},
+	    	{
+		   		"asociada" : {
+		   			"nombre" : "Alejandro",
+		   			"apellidos" : "Docampo García",
+		   			"dni" : "12345678A"
+		   		},
+		   		"roles" : [
+		   			{
+		   				"rol" : "locutor"
+		   			}
+		   		]
+	    	}
+		]
+	},
+	{
+		"nombre" : "El Desinformativo",
+	  	"direccionCorreo" : "eldesinformativo@mail.es",
+	  	"integrantes" : [
+			{
+		   		"asociada" : {
+		   			"nombre" : "Ozzy",
+		   			"apellidos" : "De Castro",
+		   			"dni" : "12345678A"
+		   		},
+		   		"roles" : [
+		   			{
+		   				"rol" : "tecnico"
+		   			},
+		   			{
+		   				"rol" : "locutor"
+		   			}
+		   		]
+	    	},
+	    	{
+		   		"asociada" : {
+		   			"nombre" : "Jorge",
+		   			"apellidos" : "Garou Catoira",
+		   			"dni" : "12345678A"
+		   		},
+		   		"roles" : [
+		   			{
+		   				"rol" : "locutor"
+		   			}
+		   		]
+	    	}
+		]
+	},
+	{
+		"nombre" : "Falso Nueve",
+	  	"direccionCorreo" : "falsonueve@mail.es",
+	  	"integrantes" : [
+			{
+		   		"asociada" : {
+		   			"nombre" : "Roberto",
+		   			"apellidos" : "Ansede",
+		   			"dni" : "12345678A"
+		   		},
+		   		"roles" : [
+		   			{
+		   				"rol" : "tecnico"
+		   			},
+		   			{
+		   				"rol" : "locutor"
+		   			}
+		   		]
+	    	},
+	    	{
+		   		"asociada" : {
+		   			"nombre" : "Álex",
+		   			"apellidos" : "Varela",
+		   			"dni" : "12345678A"
+		   		},
+		   		"roles" : [
+		   			{
+		   				"rol" : "locutor"
+		   			}
+		   		]
+	    	},
+	    	{
+		   		"asociada" : {
+		   			"nombre" : "Pablo",
+		   			"apellidos" : "Hermida",
+		   			"dni" : "12345678A"
+		   		},
+		   		"roles" : [
+		   			{
+		   				"rol" : "locutor"
+		   			}
+		   		]
+	    	},
+	    	{
+		   		"asociada" : {
+		   			"nombre" : "Daniel",
+		   			"apellidos" : "Villadangos",
+		   			"dni" : "12345678A"
+		   		},
+		   		"roles" : [
+		   			{
+		   				"rol" : "locutor"
+		   			}
+		   		]
+	    	},
+	    	{
+		   		"asociada" : {
+		   			"nombre" : "Chusco",
+		   			"apellidos" : "Somoza",
+		   			"dni" : "12345678A"
+		   		},
+		   		"roles" : [
+		   			{
+		   				"rol" : "locutor"
+		   			}
+		   		]
+	    	},
+	    	{
+		   		"asociada" : {
+		   			"nombre" : "Manav",
+		   			"apellidos" : "Gambhir",
+		   			"dni" : "12345678A"
+		   		},
+		   		"roles" : [
+		   			{
+		   				"rol" : "locutor"
+		   			}
+		   		]
+	    	}
+		]
+	},
+	{
+		"nombre" : "Fantasma Accidental",
+	  	"direccionCorreo" : "fantasmaaccidental@mail.es",
+	  	"integrantes" : [
+			{
+		   		"asociada" : {
+		   			"nombre" : "José",
+		   			"apellidos" : "Lemur Abelairas",
+		   			"dni" : "12345678A"
+		   		},
+		   		"roles" : [
+		   			{
+		   				"rol" : "locutor"
+		   			}
+		   		]
+	    	}
+		]
+	},
+	{
+		"nombre" : "Folk in Trío",
+	  	"direccionCorreo" : "folkintrio@mail.es",
+	  	"integrantes" : [
+			{
+		   		"asociada" : {
+		   			"nombre" : "Antonio",
+		   			"apellidos" : "Prado",
+		   			"dni" : "12345678A"
+		   		},
+		   		"roles" : [
+		   			{
+		   				"rol" : "tecnico"
+		   			},
+		   			{
+		   				"rol" : "locutor"
+		   			}
+		   		]
+	    	},
+	    	{
+		   		"asociada" : {
+		   			"nombre" : "Bea",
+		   			"apellidos" : "Mariño",
+		   			"dni" : "12345678A"
+		   		},
+		   		"roles" : [
+		   			{
+		   				"rol" : "tecnico"
+		   			}
+		   		]
+	    	},
+	    	{
+		   		"asociada" : {
+		   			"nombre" : "Roberto",
+		   			"apellidos" : "Aller",
+		   			"dni" : "12345678A"
+		   		},
+		   		"roles" : [
+		   			{
+		   				"rol" : "tecnico"
+		   			}
+		   		]
+	    	}
+		]
+	},
+	{
+		"nombre" : "Manda Carallo",
+	  	"direccionCorreo" : "mandacarallo@mail.es",
+	  	"integrantes" : [
+			{
+		   		"asociada" : {
+		   			"nombre" : "Iván",
+		   			"apellidos" : "Loureiro",
+		   			"dni" : "12345678A"
+		   		},
+		   		"roles" : [
+		   			{
+		   				"rol" : "locutor"
+		   			}
+		   		]
+	    	},
+	    	{
+		   		"asociada" : {
+		   			"nombre" : "Xavier",
+		   			"apellidos" : "Loureiro",
+		   			"dni" : "12345678A"
+		   		},
+		   		"roles" : [
+		   			{
+		   				"rol" : "locutor"
+		   			}
+		   		]
+	    	},
+	    	{
+		   		"asociada" : {
+		   			"nombre" : "Néstor",
+		   			"apellidos" : "Liñares",
+		   			"dni" : "12345678A"
+		   		},
+		   		"roles" : [
+		   			{
+		   				"rol" : "locutor"
+		   			}
+		   		]
+	    	},
+	    	{
+		   		"asociada" : {
+		   			"nombre" : "Juan",
+		   			"apellidos" : "",
+		   			"dni" : "12345678A"
+		   		},
+		   		"roles" : [
+		   			{
+		   				"rol" : "locutor"
+		   			}
+		   		]
+	    	}
+		]
+	},
+	{
+		"nombre" : "New Age",
+	  	"direccionCorreo" : "newage@mail.es",
+	  	"integrantes" : [
+			{
+		   		"asociada" : {
+		   			"nombre" : "Mary Carmen",
+		   			"apellidos" : "Vivas",
+		   			"dni" : "12345678A"
+		   		},
+		   		"roles" : [
+		   			{
+		   				"rol" : "locutor"
+		   			}
+		   		]
+	    	},
+	    	{
+		   		"asociada" : {
+		   			"nombre" : "Enrique",
+		   			"apellidos" : "do Rosario",
+		   			"dni" : "12345678A"
+		   		},
+		   		"roles" : [
+		   			{
+		   				"rol" : "locutor"
+		   			}
+		   		]
+	    	},
+	    	{
+		   		"asociada" : {
+		   			"nombre" : "Patricia",
+		   			"apellidos" : "Romasanta Louro",
+		   			"dni" : "12345678A"
+		   		},
+		   		"roles" : [
+		   			{
+		   				"rol" : "locutor"
+		   			}
+		   		]
+	    	},
+	    	{
+		   		"asociada" : {
+		   			"nombre" : "Kevin",
+		   			"apellidos" : "Martínez",
+		   			"dni" : "12345678A"
+		   		},
+		   		"roles" : [
+		   			{
+		   				"rol" : "locutor"
+		   			}
+		   		]
+	    	},
+	    	{
+		   		"asociada" : {
+		   			"nombre" : "Jessica",
+		   			"apellidos" : "Pazos",
+		   			"dni" : "12345678A"
+		   		},
+		   		"roles" : [
+		   			{
+		   				"rol" : "locutor"
+		   			}
+		   		]
+	    	},
+	    	{
+		   		"asociada" : {
+		   			"nombre" : "Erika",
+		   			"apellidos" : "Vázquez",
+		   			"dni" : "12345678A"
+		   		},
+		   		"roles" : [
+		   			{
+		   				"rol" : "locutor"
+		   			}
+		   		]
+	    	}
+		]
+	},
+	{
+		"nombre" : "Ondas do Cárcere",
+	  	"direccionCorreo" : "ondasdocarcere@mail.es",
+	  	"integrantes" : [
+			{
+		   		"asociada" : {
+		   			"nombre" : "Tono",
+		   			"apellidos" : "Galán",
+		   			"dni" : "12345678A"
+		   		},
+		   		"roles" : [
+		   			{
+		   				"rol" : "locutor"
+		   			}
+		   		]
+	    	},
+	    	{
+		   		"asociada" : {
+		   			"nombre" : "Laura",
+		   			"apellidos" : "Sánchez",
+		   			"dni" : "12345678A"
+		   		},
+		   		"roles" : [
+		   			{
+		   				"rol" : "locutor"
+		   			}
+		   		]
+	    	},
+	    	{
+		   		"asociada" : {
+		   			"nombre" : "Alberto",
+		   			"apellidos" : "Fortes",
+		   			"dni" : "12345678A"
+		   		},
+		   		"roles" : [
+		   			{
+		   				"rol" : "locutor"
+		   			}
+		   		]
+	    	},
+	    	{
+		   		"asociada" : {
+		   			"nombre" : "Carmen",
+		   			"apellidos" : "Cotelo",
+		   			"dni" : "12345678A"
+		   		},
+		   		"roles" : [
+		   			{
+		   				"rol" : "locutor"
+		   			}
+		   		]
+	    	},
+	    	{
+		   		"asociada" : {
+		   			"nombre" : "Pepe",
+		   			"apellidos" : "Lado",
+		   			"dni" : "12345678A"
+		   		},
+		   		"roles" : [
+		   			{
+		   				"rol" : "locutor"
+		   			}
+		   		]
+	    	}
+		]
+	},
+	{
+		"nombre" : "Orion 2.1",
+	  	"direccionCorreo" : "orion2.1@mail.es",
+	  	"integrantes" : [
+			{
+		   		"asociada" : {
+		   			"nombre" : "Rubén",
+		   			"apellidos" : "Martínez Morgado",
+		   			"dni" : "12345678A"
+		   		},
+		   		"roles" : [
+		   			{
+		   				"rol" : "locutor"
+		   			}
+		   		]
+	    	}
+		]
+	},
+	{
+		"nombre" : "Radioactiva",
+	  	"direccionCorreo" : "radioactiva",
+	  	"integrantes" : [
+			{
+		   		"asociada" : {
+		   			"nombre" : "Clara",
+		   			"apellidos" : "de Vega Fernández",
+		   			"dni" : "12345678A"
+		   		},
+		   		"roles" : [
+		   			{
+		   				"rol" : "locutor"
+		   			}
+		   		]
+	    	},
+	    	{
+		   		"asociada" : {
+		   			"nombre" : "Alba",
+		   			"apellidos" : "Puente Fernández",
+		   			"dni" : "12345678A"
+		   		},
+		   		"roles" : [
+		   			{
+		   				"rol" : "locutor"
+		   			}
+		   		]
+	    	}
+		]
+	},
+	{
+		"nombre" : "Radio Prometea",
+	  	"direccionCorreo" : "radioprometea@mail.es",
+	  	"integrantes" : []
+	},
+	{
+		"nombre" : "Recendo",
+	  	"direccionCorreo" : "recendo@mail.es",
+	  	"integrantes" : [
+			{
+		   		"asociada" : {
+		   			"nombre" : "Roberto",
+		   			"apellidos" : "Catoria",
+		   			"dni" : "12345678A"
+		   		},
+		   		"roles" : [
+		   			{
+		   				"rol" : "locutor"
+		   			}
+		   		]
+	    	},
+	    	{
+		   		"asociada" : {
+		   			"nombre" : "Antonio",
+		   			"apellidos" : "Brea",
+		   			"dni" : "12345678A"
+		   		},
+		   		"roles" : [
+		   			{
+		   				"rol" : "locutor"
+		   			}
+		   		]
+	    	},
+	    	{
+		   		"asociada" : {
+		   			"nombre" : "Gema",
+		   			"apellidos" : "Millán",
+		   			"dni" : "12345678A"
+		   		},
+		   		"roles" : [
+		   			{
+		   				"rol" : "locutor"
+		   			}
+		   		]
+	    	},
+	    	{
+		   		"asociada" : {
+		   			"nombre" : "Marta",
+		   			"apellidos" : "López",
+		   			"dni" : "12345678A"
+		   		},
+		   		"roles" : [
+		   			{
+		   				"rol" : "locutor"
+		   			}
+		   		]
+	    	},
+	    	{
+		   		"asociada" : {
+		   			"nombre" : "Uxía",
+		   			"apellidos" : "Vázquez",
+		   			"dni" : "12345678A"
+		   		},
+		   		"roles" : [
+		   			{
+		   				"rol" : "locutor"
+		   			}
+		   		]
+	    	},
+	    	{
+		   		"asociada" : {
+		   			"nombre" : "Javier",
+		   			"apellidos" : "Pereira",
+		   			"dni" : "12345678A"
+		   		},
+		   		"roles" : [
+		   			{
+		   				"rol" : "locutor"
+		   			}
+		   		]
+	    	}
+		]
+	},
+	{
+		"nombre" : "Reversión",
+	  	"direccionCorreo" : "reversion@mail.es",
+	  	"integrantes" : [
+			{
+		   		"asociada" : {
+		   			"nombre" : "Laura",
+		   			"apellidos" : "Sánchez",
+		   			"dni" : "12345678A"
+		   		},
+		   		"roles" : [
+		   			{
+		   				"rol" : "locutor"
+		   			}
+		   		]
+	    	},
+	    	{
+		   		"asociada" : {
+		   			"nombre" : "Tono",
+		   			"apellidos" : "Galán",
+		   			"dni" : "12345678A"
+		   		},
+		   		"roles" : [
+		   			{
+		   				"rol" : "locutor"
+		   			}
+		   		]
+	    	}
+		]
+	},
+	{
+		"nombre" : "RH+",
+	  	"direccionCorreo" : "rh+@mail.es",
+	  	"integrantes" : []
+	},
+	{
+		"nombre" : "RqueR",
+	  	"direccionCorreo" : "rquer@mail.es",
+	  	"integrantes" : [
+			{
+		   		"asociada" : {
+		   			"nombre" : "Rocío",
+		   			"apellidos" : "Suárez",
+		   			"dni" : "12345678A"
+		   		},
+		   		"roles" : [
+		   			{
+		   				"rol" : "locutor"
+		   			}
+		   		]
+	    	},
+	    	{
+		   		"asociada" : {
+		   			"nombre" : "Rebeca",
+		   			"apellidos" : "Fernández",
+		   			"dni" : "12345678A"
+		   		},
+		   		"roles" : [
+		   			{
+		   				"rol" : "locutor"
+		   			}
+		   		]
+	    	}
+		]
+	},
+	{
+		"nombre" : "Simplemente Gente",
+	  	"direccionCorreo" : "simplementegente@mail.es",
+	  	"integrantes" : [
+			{
+		   		"asociada" : {
+		   			"nombre" : "Óscar",
+		   			"apellidos" : "García González",
+		   			"dni" : "12345678A"
+		   		},
+		   		"roles" : [
+		   			{
+		   				"rol" : "locutor"
+		   			}
+		   		]
+	    	},
+	    	{
+		   		"asociada" : {
+		   			"nombre" : "Carlos",
+		   			"apellidos" : "Reguera",
+		   			"dni" : "12345678A"
+		   		},
+		   		"roles" : [
+		   			{
+		   				"rol" : "locutor"
+		   			}
+		   		]
+	    	},
+	    	{
+		   		"asociada" : {
+		   			"nombre" : "Montserrat",
+		   			"apellidos" : "Verea Pellico",
+		   			"dni" : "12345678A"
+		   		},
+		   		"roles" : [
+		   			{
+		   				"rol" : "locutor"
+		   			}
+		   		]
+	    	},
+	    	{
+		   		"asociada" : {
+		   			"nombre" : "Rubén",
+		   			"apellidos" : "Sánchez Imizcoz",
+		   			"dni" : "12345678A"
+		   		},
+		   		"roles" : [
+		   			{
+		   				"rol" : "locutor"
+		   			}
+		   		]
+	    	}
+		]
+	},
+	{
+		"nombre" : "Sin Etiquetas",
+	  	"direccionCorreo" : "sinetiquetas@mail.es",
+	  	"integrantes" : [
+			{
+		   		"asociada" : {
+		   			"nombre" : "Adrián",
+		   			"apellidos" : "López Rosales",
+		   			"dni" : "12345678A"
+		   		},
+		   		"roles" : [
+		   			{
+		   				"rol" : "locutor"
+		   			}
+		   		]
+	    	},
+	    	{
+		   		"asociada" : {
+		   			"nombre" : "Jorge",
+		   			"apellidos" : "Graña",
+		   			"dni" : "12345678A"
+		   		},
+		   		"roles" : [
+		   			{
+		   				"rol" : "locutor"
+		   			}
+		   		]
+	    	},
+	    	{
+		   		"asociada" : {
+		   			"nombre" : "Alejandro",
+		   			"apellidos" : "Sánchez Bardanca",
+		   			"dni" : "12345678A"
+		   		},
+		   		"roles" : [
+		   			{
+		   				"rol" : "locutor"
+		   			}
+		   		]
+	    	},
+	    	{
+		   		"asociada" : {
+		   			"nombre" : "Antonio",
+		   			"apellidos" : "Pedrouzo Aranda",
+		   			"dni" : "12345678A"
+		   		},
+		   		"roles" : [
+		   			{
+		   				"rol" : "locutor"
+		   			}
+		   		]
+	    	}
+		]
+	},
+	{
+		"nombre" : "Trankimagazine",
+	  	"direccionCorreo" : "trankimagazine@mail.es",
+	  	"integrantes" : [
+			{
+		   		"asociada" : {
+		   			"nombre" : "Pepa",
+		   			"apellidos" : "Díaz",
+		   			"dni" : "12345678A"
+		   		},
+		   		"roles" : [
+		   			{
+		   				"rol" : "locutor"
+		   			}
+		   		]
+	    	},
+	    	{
+		   		"asociada" : {
+		   			"nombre" : "Carlos",
+		   			"apellidos" : "Reguera",
+		   			"dni" : "12345678A"
+		   		},
+		   		"roles" : [
+		   			{
+		   				"rol" : "locutor"
+		   			}
+		   		]
+	    	}
+		]
+	},
+    {
+		"nombre" : "Xeración Bravú",
+	  	"direccionCorreo" : "xeracionbravu@mail.es",
+	  	"integrantes" : [
+			{
+		   		"asociada" : {
+		   			"nombre" : "Rodri",
+		   			"apellidos" : "Gil",
+		   			"dni" : "12345678A"
+		   		},
+		   		"roles" : [
+		   			{
+		   				"rol" : "locutor"
+		   			}
+		   		]
+	    	},
+	    	{
+		   		"asociada" : {
+		   			"nombre" : "Martín",
+		   			"apellidos" : "Arceo",
+		   			"dni" : "12345678A"
+		   		},
+		   		"roles" : [
+		   			{
+		   				"rol" : "locutor"
+		   			}
+		   		]
+	    	},
+	    	{
+		   		"asociada" : {
+		   			"nombre" : "Iago",
+		   			"apellidos" : "Prada",
+		   			"dni" : "12345678A"
+		   		},
+		   		"roles" : [
+		   			{
+		   				"rol" : "locutor"
+		   			}
+		   		]
+	    	},
+	    	{
+		   		"asociada" : {
+		   			"nombre" : "Geni",
+		   			"apellidos" : "Rico",
+		   			"dni" : "12345678A"
+		   		},
+		   		"roles" : [
+		   			{
+		   				"rol" : "locutor"
+		   			}
+		   		]
+	    	},
+	    	{
+		   		"asociada" : {
+		   			"nombre" : "Pablo",
+		   			"apellidos" : "Taboada",
+		   			"dni" : "12345678A"
+		   		},
+		   		"roles" : [
+		   			{
+		   				"rol" : "locutor"
+		   			}
+		   		]
+	    	},
+	    	{
+		   		"asociada" : {
+		   			"nombre" : "Javi",
+		   			"apellidos" : "Lopa",
+		   			"dni" : "12345678A"
+		   		},
+		   		"roles" : [
+		   			{
+		   				"rol" : "locutor"
+		   			}
+		   		]
+	    	},
+	    	{
+		   		"asociada" : {
+		   			"nombre" : "Jorge",
+		   			"apellidos" : "Boquete",
+		   			"dni" : "12345678A"
+		   		},
+		   		"roles" : [
+		   			{
+		   				"rol" : "locutor"
+		   			}
+		   		]
+	    	}
+		]
+	}
+]

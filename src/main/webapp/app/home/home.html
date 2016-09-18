@@ -1,0 +1,11 @@
+<!-- Jumbotron Header -->
+<header class="jumbotron well" ng-repeat="edicion in $ctrl.ediciones" ng-if="edicion.activa">
+    <h1>{{edicion.nombre}}</h1>
+    <p>{{edicion.descripcion}}</p>
+    <p>
+    	<a ui-sref="edicion.get({id : {{edicion.id}}})" class="btn btn-primary btn-large">Participar</a>
+    </p>
+</header>
+<hr>
+
+<otros-concursos concursos="$ctrl.concursos"></otros-concursos>

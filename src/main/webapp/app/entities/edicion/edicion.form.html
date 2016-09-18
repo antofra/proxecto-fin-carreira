@@ -1,0 +1,62 @@
+<div class="row-fluid">
+	<h3>
+		<span>Datos básicos</span>
+		<i ng-class="{'glyphicon-chevron-up' : $ctrl.show, 'glyphicon-chevron-down' : !$ctrl.show}" class="glyphicon pull-right" ng-click="$ctrl.show = !$ctrl.show"></i>
+	</h3>
+</div>
+	
+<hr>
+
+<div class="container-fluid" ng-show="$ctrl.show">
+	<form class="form-horizontal">	
+		<div class="form-group">
+		    <label class="col-md-2" for="nombre">
+		    	<span translate="entidad.edicion.descripcion">Descripcion</span>:
+		    </label>
+			<div class="col-md-10">
+				<input type="text" class="form-control" id="nombre" placeholder="{{'entidad.edicion.descripcion' | translate}}"
+					ng-model="$ctrl.edicion.descripcion">
+			</div>
+	  	</div>
+	  	
+	  	<div class="form-group">
+		    <label class="col-md-2" for="fechaHoraCelebracion">
+		    	<span translate="entidad.edicion.fechaHoraCelebracion">Fecha Celebración</span>:
+		    </label>
+			<div>
+				<datetimepicker ng-model="$ctrl.edicion.fechaHoraCelebracion" date-format="{{format}}" date-options="dateOptions" show-meridian="false">
+				</datetimepicker>
+			</div>
+	  	</div>
+	  	
+	  	<div class="form-group">
+		    <label class="col-md-2" for="fechaHoraPublicacion">
+		    	<span translate="entidad.edicion.fechaHoraPublicacion">Fecha Publicación</span>:
+		    </label>
+			<div>
+				<datetimepicker ng-model="$ctrl.edicion.fechaHoraPublicacion" date-format="{{format}}" date-options="dateOptions" show-meridian="false">
+				</datetimepicker>
+			</div>
+	  	</div>
+	  	
+	  	<div class="form-group">
+		    <label class="col-md-2" for="fechaHoraInicioVotaciones">
+		    	<span translate="entidad.edicion.fechaHoraInicioVotaciones">Fecha Inicio Votaciones</span>:
+		    </label>
+			<div>
+				<datetimepicker ng-model="$ctrl.edicion.fechaHoraInicioVotaciones" date-format="{{format}}" date-options="dateOptions" show-meridian="false">
+				</datetimepicker>
+			</div>
+	  	</div>
+		  	
+	  	<div class="form-group">
+		    <label class="col-md-2" for="fechaHoraFinVotaciones">
+		    	<span translate="entidad.edicion.fechaHoraFinVotaciones">Fecha Fin Votaciones</span>:
+		    </label>
+			<div>
+				<datetimepicker ng-model="$ctrl.edicion.fechaHoraFinVotaciones" date-format="{{format}}" date-options="dateOptions" show-meridian="false">
+				</datetimepicker>
+			</div>
+	  	</div>
+	</form>
+</div>

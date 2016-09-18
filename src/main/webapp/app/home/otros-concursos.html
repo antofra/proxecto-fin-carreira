@@ -1,0 +1,27 @@
+<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+	<div class="panel panel-default">
+    	<div class="panel-heading" role="tab" id="headingOne">
+      		<h4 class="panel-title">
+        		<a role="button" data-toggle="collapse" data-parent="#accordion" href="#otros" aria-expanded="true" aria-controls="collapseOne">
+          			<span translate="entidad.concurso.otros">Otros concursos</span>
+        		</a>
+      		</h4>
+    	</div>
+    	
+    	<div id="otros" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+      		<div class="panel-body text">
+        		<div class="col-md-3" ng-repeat="concurso in $ctrl.otras">
+					<div class="thumbnail">
+			            <img src="http://placehold.it/800x500" alt="">
+			            <div class="caption">
+			                <p>{{concurso.nombre}}</p>
+			                <p>
+			                    <a ui-sref="concurso.get({id : concurso.id})" class="btn btn-primary">Ver</a>
+			                </p>
+			            </div>
+			        </div>	        		
+        		</div>
+        	</div>
+    	</div>
+  	</div>
+</div>

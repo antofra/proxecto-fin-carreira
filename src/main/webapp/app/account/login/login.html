@@ -1,0 +1,58 @@
+<div>
+    <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+            <h1 translate="app.login.acceder">Acceder</h1>
+        </div>
+        <div class="col-md-8 col-md-offset-2">
+            <div
+                class="alert alert-danger"
+                ng-show="$ctrl.accessdenied">
+                <strong translate="app.login.no_autorizado">You are not authorized to access the page.</strong> Please authenticate yourself.
+            </div>
+        </div>
+        <div class="col-md-8 col-md-offset-2">
+            <div
+                class="alert alert-danger"
+                ng-show="$ctrl.authenticationError">
+                <strong translate="app.login.fallo_acceso">Failed to sign in!</strong>&nbsp;
+                <span translate="app.login.fallo_revisa_credenciales">Please check your credentials and try again.</span>
+            </div>
+        </div>
+        <div class="col-md-8 col-md-offset-2">
+            <form class="form" role="form" ng-submit="$ctrl.login($event)">
+                <div class="form-group">
+                    <label for="username" translate="app.login.usuario">Login</label>
+                    <input
+                        type="text"
+                        class="form-control"
+                        id="username"
+                        placeholder="{{'app.login.usuario' | translate}}"
+                        ng-model="$ctrl.credentials.username">
+                </div>
+                <div class="form-group">
+                    <label for="password" translate="app.login.password">Password</label>
+                    <input
+                        type="password"
+                        class="form-control"
+                        id="password"
+                        placeholder="{{'app.login.password' | translate}}"
+                        ng-model="$ctrl.credentials.password">
+                </div>
+                <div class="form-group">
+                    <label for="rememberMe" translate="app.login.remember">Remember me</label>
+                    <input
+                            type="checkbox"
+                            id="rememberMe"
+                            ng-model="$ctrl.credentials.rememberMe">
+                </div>
+                <button type="submit" class="btn btn-primary" translate="app.login.acceder">Sign in</button>
+            </form>
+            <p></p>
+            <div class="alert alert-warning">
+                <a class="alert-link" ui-sref="requestReset">
+                    <span translate="app.login.password_olvidado">Did you forget your password?</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>

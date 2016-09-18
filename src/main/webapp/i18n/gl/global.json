@@ -1,0 +1,83 @@
+{
+	"app": {
+		"title" : "Concursos",
+		"bienvenida" : "Benvido/a",
+		"login" : {
+			"acceder" : "Acceder",
+			"no_autorizado" : "Non autorizado",
+			"fallo_acceso" : "Fallo aceso",
+			"fallo_revisa_credenciales" : "Por favor, revisa os teus datos de aceso e inténtao de novo",
+			"usuario" : "Usuario",
+			"password" : "Contrasinal",
+			"remember" : "Recordarme",
+			"password_olvidado" : "Olvidou o seu contrasinal?"
+		}
+	},
+	"menu" : {
+		"inicio" : "Inicio",
+		"edicion-concurso" : "Edición Concurso",
+		"entidades" : "Entidades",
+		"idiomas" : "Idiomas"
+	},
+	"acciones" : {
+		"crear" : "Crear",
+		"guardar" : "Gardar",
+		"guardar_cambios" : "Gardar Cambios",
+		"cancelar_cambios" : "Cancelar Cambios",
+		"cancelar" : "Cancelar",
+		"editar" : "Editar",
+		"eliminar" : "Eliminar",
+		"siguiente" : "Seguinte",
+		"anterior" : "Anterior",
+		"seleccionar_todos" : "Todas",
+		"seleccionar_ninguno" : "Ningunha",
+		"nueva_edicion" : "Crear Edición",
+		"introducir_tres_caracteres": "Introduza os tres primeiros caracteres..."
+	},
+	"entidad" : {
+		"id" : "Identificador",
+		"nombre" : "Nome",
+		"concurso" : {
+			"title" : "Concursos",
+			"otros" : "Outros concursos"		
+		},
+		"edicion" : {
+			"title" : "Ediciones",
+			"otras" : "Outras edicións",
+			"descripcion" : "Descrición",
+			"fechaHoraCelebracion" : "Data celebración",
+			"fechaHoraPublicacion" : "Data publicación",
+			"fechaHoraInicioVotaciones" : "Data inicio votación",
+			"fechaHoraFinVotaciones" : "Data fin votación"
+		},
+		"categoria" : {
+			"title" : "Categorías",
+			"nombre" : "Categoría",
+			"buscar" : "Buscar categoría...",
+			"participante" : {
+				"nominado" : "Nominado",
+				"uno" : "Un punto",
+				"dos" : "Dos puntos",
+				"tres" : "Tres puntos"
+			}
+		},
+		"programa" : {
+			"title" : "Programas",
+			"nombre" : "Programa",
+			"anadirIntegrante" : "Engadir integrante/s",
+			"direccion_correo" : "Correo electrónico"
+		},
+		"rol" : {
+			"title" : "Roles"
+		},
+		"integrante" : {
+			"title" : "Integrantes"
+		},
+		"no-asociada" : {
+			"title" : "Entidades e persoas non asociadas",
+			"crear" : "Crear Non Asociada",
+			"nombre" : "Non Asociada"
+		}
+	},
+	"pie" : "Pé de páxina"
+}

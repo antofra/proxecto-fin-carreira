@@ -1,0 +1,77 @@
+<div class="container-fluid">
+
+	<div class="row-fluid">
+		<h1 translate="entidad.programa.title">Programas</h1>
+	</div>
+	
+	<div class="row-fluid">
+		<div class="pull-right" ng-show="!$ctrl.showForm">
+			<button class="btn btn-primary" ng-click="$ctrl.crear()">
+				<i class="glyphicon glyphicon-plus"></i>
+				<span translate="acciones.crear">Crear Programa</span>
+			</button>
+		</div>
+	
+		<div>
+			<form ng-show="$ctrl.showForm">
+				<div class="form-group">
+					<label translate="entidad.nombre">Nombre</label>
+					<input type="text" ng-model="$ctrl.programa.nombre"></input>
+				</div>
+				
+				<div class="form-group">
+					<label translate="entidad.programa.direccion_correo">eMail</label>
+					<input type="email" ng-model="$ctrl.programa.direccionCorreo"></input>
+				</div>
+				
+				<div class="pull-right">
+					<button class="btn btn-default" ng-click="$ctrl.cancelar()" type="button">
+						<span translate="acciones.cancelar">Cancelar</span>
+					</button>
+					<button class="btn btn-primary" ng-click="$ctrl.guardar($ctrl.programa)">
+						<i class="glyphicon glyphicon-ok"></i>
+						<span translate="acciones.guardar">Guardar</span>
+					</button>
+				</div>
+			</form>
+		</div>
+	</div>
+
+	<div class="row-fluid">
+		<table ng-table="$ctrl.tableParams" class="table" show-filter="true">
+		    <tr ng-repeat="programa in $data">
+		        <td data-title="'entidad.nombre' | translate" filter="{ nombre: 'text'}" sortable="'nombre'">
+		            <a ng-if="!programa.edit" ui-sref="programa.get({id : {{programa.id}}})">{{programa.nombre}}</a>
+		            <input type="text" ng-model="programa.nombre" ng-if="programa.edit">
+		        </td>
+		        <td data-title="'entidad.programa.direccion_correo' | translate">
+		            <span ng-if="!programa.edit">{{programa.direccionCorreo}}</span>
+		            <input type="email" ng-model="programa.direccionCorreo" ng-if="programa.edit">
+		        </td>
+		        <td>
+		            <div class="pull-right">
+		            	<div ng-if="programa.edit">
+		            		<button type="button" class="btn btn-default" ng-click="$ctrl.cancelarEditar(programa)">
+								<i class="glyphicon glyphicon-repeat"></i>
+							</button>
+							<button type="button" class="btn btn-primary" ng-click="$ctrl.guardar(programa)">
+			            		<i class="glyphicon glyphicon-ok"></i>
+			            	</button>
+		            	</div>
+		            	
+		            	<div ng-if="!programa.edit">
+		            		<button type="button" class="btn btn-primary" ng-click="$ctrl.editar(programa)">
+			            		<i class="glyphicon glyphicon-pencil"></i>
+			            	</button>
+		            	
+			            	<button type="button" class="btn btn-danger" ng-click="$ctrl.eliminar(programa)">
+			            		<i class="glyphicon glyphicon-remove"></i>
+			            	</button>
+		            	</div>
+		            </div>
+		        </td>
+		    </tr>
+		</table>
+	</div>
+
+</div>

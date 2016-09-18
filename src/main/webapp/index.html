@@ -1,0 +1,114 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title translate="app.title">Concursos</title>
+        <!-- bower:css -->
+        <link rel="stylesheet" href="bower_components/reset-css/reset.css" />
+        <link rel="stylesheet" href="bower_components/ng-table/dist/ng-table.css" />
+        <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
+        <link rel="stylesheet" href="bower_components/angucomplete-alt/angucomplete-alt.css" />
+        <link rel="stylesheet" href="bower_components/isteven-angular-multiselect/isteven-multi-select.css" />
+        <link rel="stylesheet" href="bower_components/angular-ui-bootstrap-datetimepicker/datetimepicker.css" />
+        <!-- endbower -->
+        <!-- inject:css -->
+        <link rel="stylesheet" href="assets/css/main.css">
+        <!-- endinject -->
+    </head>
+
+    <body ng-app="app" ng-clock="">
+        <div ui-view="navbar"></div>
+        <div class="container">
+        	<alert></alert>
+            <div class="well" ui-view="content"></div>
+        </div>
+        <div ui-view="footer"></div>
+        <!-- bower:js -->
+        <script src="bower_components/angular/angular.js"></script>
+        <script src="bower_components/angular-resource/angular-resource.js"></script>
+        <script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+        <script src="bower_components/ng-table/dist/ng-table.js"></script>
+        <script src="bower_components/ngstorage/ngStorage.js"></script>
+        <script src="bower_components/jquery/dist/jquery.js"></script>
+        <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+        <script src="bower_components/angular-translate/angular-translate.js"></script>
+        <script src="bower_components/angular-dynamic-locale/src/tmhDynamicLocale.js"></script>
+        <script src="bower_components/angular-cookies/angular-cookies.js"></script>
+        <script src="bower_components/messageformat/messageformat.js"></script>
+        <script src="bower_components/angular-translate-interpolation-messageformat/angular-translate-interpolation-messageformat.js"></script>
+        <script src="bower_components/angular-translate-loader-partial/angular-translate-loader-partial.js"></script>
+        <script src="bower_components/angucomplete-alt/angucomplete-alt.js"></script>
+        <script src="bower_components/checklist-model/checklist-model.js"></script>
+        <script src="bower_components/isteven-angular-multiselect/isteven-multi-select.js"></script>
+        <script src="bower_components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
+        <script src="bower_components/myforce-angularjs-dropdown-multiselect/src/angularjs-dropdown-multiselect.js"></script>
+        <script src="bower_components/angular-ui-bootstrap-datetimepicker/datetimepicker.js"></script>
+        <script src="bower_components/angular-cache-buster/angular-cache-buster.js"></script>
+        <!-- endbower -->
+        <!-- inject:js -->
+        <script src="app/app.module.js"></script>
+        <script src="app/entities/edicion/categorias/participantes/participante-categoria-edicion-list.component.js"></script>
+        <script src="app/entities/edicion/resultado/resultado.edicion.component.js"></script>
+        <script src="app/entities/edicion/programas/programa.edicion.component.js"></script>
+        <script src="app/entities/edicion/categorias/categoria-edicion.component.js"></script>
+        <script src="app/entities/edicion/categorias/categoria-edicion-list.component.js"></script>
+        <script src="app/components/language/provider/translation-storage.provider.js"></script>
+        <script src="app/services/alert/alert.service.js"></script>
+        <script src="app/services/alert/alert.component.js"></script>
+        <script src="app/entities/voto/voto.resource.js"></script>
+        <script src="app/entities/rol/rol.state.js"></script>
+        <script src="app/entities/rol/rol.resource.js"></script>
+        <script src="app/entities/rol/rol.list.component.js"></script>
+        <script src="app/entities/programa/programa.state.js"></script>
+        <script src="app/entities/programa/programa.resource.js"></script>
+        <script src="app/entities/programa/programa.list.component.js"></script>
+        <script src="app/entities/programa/programa.component.js"></script>
+        <script src="app/entities/no-asociada/no-asociada.state.js"></script>
+        <script src="app/entities/no-asociada/no-asociada.resource.js"></script>
+        <script src="app/entities/no-asociada/no-asociada.list.component.js"></script>
+        <script src="app/entities/integrante/integrante.state.js"></script>
+        <script src="app/entities/integrante/integrante.resource.js"></script>
+        <script src="app/entities/edicion/edicion.state.js"></script>
+        <script src="app/entities/edicion/edicion.resource.js"></script>
+        <script src="app/entities/edicion/edicion.form.component.js"></script>
+        <script src="app/entities/edicion/edicion.component.js"></script>
+        <script src="app/entities/concurso/concurso.state.js"></script>
+        <script src="app/entities/concurso/concurso.resource.js"></script>
+        <script src="app/entities/concurso/concurso.list.component.js"></script>
+        <script src="app/entities/concurso/concurso.component.js"></script>
+        <script src="app/entities/categoria/categoria.state.js"></script>
+        <script src="app/entities/categoria/categoria.resource.js"></script>
+        <script src="app/entities/categoria/categoria.list.component.js"></script>
+        <script src="app/entities/asociada/asociada.state.js"></script>
+        <script src="app/entities/asociada/asociada.resource.js"></script>
+        <script src="app/entities/asociada/asociada.list.component.js"></script>
+        <script src="app/entities/asociada/asociada.form.directive.js"></script>
+        <script src="app/components/menu/menu.component.js"></script>
+        <script src="app/components/language/language.service.js"></script>
+        <script src="app/components/language/language.filter.js"></script>
+        <script src="app/components/language/language.controller.js"></script>
+        <script src="app/components/language/language.constants.js"></script>
+        <script src="app/components/idiomas/idiomas.directive.js"></script>
+        <script src="app/components/footer/footer.component.js"></script>
+        <script src="app/components/entidades/entidades.directive.js"></script>
+        <script src="app/components/autocomplete/autocomplete.component.js"></script>
+        <script src="app/account/logout/logout.state.js"></script>
+        <script src="app/account/logout/logout.controller.js"></script>
+        <script src="app/account/login/login.state.js"></script>
+        <script src="app/account/login/login.component.js"></script>
+        <script src="app/services/principal.service.js"></script>
+        <script src="app/services/has-any-authority.js"></script>
+        <script src="app/services/auth.service.js"></script>
+        <script src="app/services/auth.jwt.service.js"></script>
+        <script src="app/services/account.service.js"></script>
+        <script src="app/interceptors/auth.interceptor.js"></script>
+        <script src="app/interceptors/auth-expired.interceptor.js"></script>
+        <script src="app/home/otros-concursos.component.js"></script>
+        <script src="app/home/home.state.js"></script>
+        <script src="app/home/home.component.js"></script>
+        <script src="app/handlers/state.handler.js"></script>
+        <script src="app/error/error.state.js"></script>
+        <script src="app/app.state.js"></script>
+        <!-- endinject -->
+    </body>
+</html>

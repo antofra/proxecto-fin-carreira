@@ -1,0 +1,89 @@
+{
+	"app": {
+		"title" : "Concursos",
+		"bienvenida" : "Bienvenido/a",
+		"login" : {
+			"acceder" : "Acceder",
+			"no_autorizado" : "No autorizado",
+			"fallo_acceso" : "Fallo acceso",
+			"fallo_revisa_credenciales" : "Por favor, revisa tus datos de acceso e inténtalo de nuevo",
+			"usuario" : "Usuario",
+			"password" : "Contraseña",
+			"remember" : "Recordarme",
+			"password_olvidado" : "¿Ha olvidado su contraseña?"
+		}
+	},
+	"menu" : {
+		"inicio" : "Inicio",
+		"edicion-concurso" : "Edición Concurso",
+		"entidades" : "Entidades",
+		"idiomas" : "Idiomas"
+	},
+	"acciones" : {
+		"crear" : "Crear",
+		"guardar" : "Guardar",
+		"guardar_cambios" : "Guardar Cambios",
+		"cancelar_cambios" : "Cancelar Cambios",
+		"cancelar" : "Cancelar",
+		"editar" : "Editar",
+		"eliminar" : "Eliminar",
+		"siguiente" : "Siguiente",
+		"anterior" : "Anterior",
+		"seleccionar_todos" : "Todas",
+		"seleccionar_ninguno" : "Ninguna",
+		"nueva_edicion" : "Crear Edición",
+		"introducir_tres_caracteres": "Introduzca los tres primeros caracteres..."
+	},
+	"entidad" : {
+		"id" : "Identificador",
+		"nombre" : "Nombre",
+		"concurso" : {
+			"title" : "Concursos",
+			"otros" : "Otros concursos"	
+		},
+		"edicion" : {
+			"title" : "Ediciones",
+			"otras" : "Otras ediciones",
+			"descripcion" : "Descripción",
+			"fechaHoraCelebracion" : "Fecha celebración",
+			"fechaHoraPublicacion" : "Fecha publicación",
+			"fechaHoraInicioVotaciones" : "Fecha inicio votación",
+			"fechaHoraFinVotaciones" : "Fecha fin votación"
+		},
+		"categoria" : {
+			"title" : "Categorías",
+			"nombre" : "Categoría",
+			"buscar" : "Buscar categoría...",
+			"participante" : {
+				"nominado" : "Nominado",
+				"uno" : "Un punto",
+				"dos" : "Dos puntos",
+				"tres" : "Tres puntos"
+			}
+		},
+		"programa" : {
+			"title" : "Programas",
+			"nombre" : "Programa",
+			"anadirIntegrante" : "Añadir integrante/s",
+			"direccion_correo" : "Correo electrónico"
+		},
+		"asociada" : {
+			"title" : "Personas asociadas",
+			"nombre" : "Nombre",
+			"apellidos" : "Apellidos",
+			"dni" : "DNI"
+		},
+		"rol" : {
+			"title" : "Roles"
+		},
+		"integrante" : {
+			"title" : "Integrantes"
+		},
+		"no-asociada" : {
+			"title" : "Entidades y personas no asociadas",
+			"crear" : "Crear No Asociada",
+			"nombre" : "No Asociada"
+		}
+	},
+	"pie" : "Pie de página"
+}

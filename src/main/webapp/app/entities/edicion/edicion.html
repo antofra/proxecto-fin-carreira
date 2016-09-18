@@ -1,0 +1,41 @@
+<h2 class="text-center">{{$ctrl.edicion.descripcion}}</h2>
+<hr>
+<edicion-form edicion="$ctrl.edicion">
+</edicion-form>
+<hr>
+<programa-edicion edicion="$ctrl.edicion" roles="$ctrl.roles" programas="$ctrl.programas">
+</programa-edicion>
+<hr>
+<categoria-edicion-list edicion="$ctrl.edicion" categorias="$ctrl.categorias" no-asociadas="$ctrl.noAsociadas">
+</categoria-edicion-list>
+<hr>
+
+<div class="row" has-any-authority="ROLE_ADMIN">
+	<div class="pull-left">
+		<button type="button" class="btn btn-default" ng-click="$ctrl.cancel()">
+			<i class="glyphicon glyphicon-chevron-left"></i>
+		</button>
+		<button class="btn btn-danger" ng-click="$ctrl.eliminar()">
+			<i class="glyphicon glyphicon-remove"></i>
+			<span translate="acciones.eliminar">Eliminar</span>
+		</button>
+	</div>
+	<div class="pull-right">
+		<button class="btn btn-warning" ng-click="$ctrl.cancelarCambios()">
+			<i class="glyphicon glyphicon-repeat"></i>
+			<span translate="acciones.cancelar_cambios">Cancelar cambios</span>
+		</button>
+		<button type="button" class="btn btn-success" ng-click="$ctrl.save()">
+			<i class="glyphicon glyphicon-ok"></i>
+			<span translate="acciones.guardar">Guardar</span>
+		</button>
+	</div>
+</div>
+
+<div class="row" has-any-authority="ROLE_USER">
+	<div class="pull-right">
+		<button type="button" class="btn btn-success" ng-click="$ctrl.votar()" ng-disabled="!$ctrl.voto.isValid()">
+			<span translate="acciones.votar">Votar</span>
+		</button>
+	</div>
+</div>

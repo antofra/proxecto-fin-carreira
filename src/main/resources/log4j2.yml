@@ -1,0 +1,19 @@
+configuration:
+  status: 'warn'
+  appenders:
+    console:
+      name: stdout
+      patternLayout:
+        pattern: '[%d{dd/MM/yyyy HH:mm:ss}] [%p - %c]  %m%n'
+      target: SYSTEM_OUT
+  loggers:
+    root:
+      appenderRef:
+        ref: stdout
+      level: 'INFO'
+    logger: 
+    - { level: 'INFO', name: org.cuacfm }
+    - { level: 'WARN', name: org.springframework }
+    - { level: 'WARN', name: org.springframework.boot }
+    - { level: 'WARN', name: springfox.documentation }
+    - { level: 'DEBUG', name: org.apache }

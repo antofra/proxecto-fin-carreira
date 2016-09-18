@@ -1,0 +1,60 @@
+<h1 translate="entidad.categoria.title">Categorias</h1>
+
+<div class="row-fluid">
+	<div class="pull-right" ng-show="!$ctrl.showForm">
+		<button class="btn btn-primary" ng-click="$ctrl.add()">
+			<i class="glyphicon glyphicon-plus"></i>
+			<span translate="acciones.crear">Crear Categoria</span>
+		</button>
+	</div>
+
+	<div>
+		<form ng-show="$ctrl.showForm">
+			<div class="form-group">
+				<label translate="entidad.nombre">Nombre</label>
+				<input type="text" ng-model="$ctrl.categoria.nombre"></input>
+			</div>
+			
+			<div class="pull-right">
+				<button class="btn btn-default" ng-click="$ctrl.cancel()" type="button">
+					<span translate="acciones.cancelar">Cancelar</span>
+				</button>
+				<button class="btn btn-primary" ng-click="$ctrl.save($ctrl.categoria)">
+					<i class="glyphicon glyphicon-ok"></i>
+					<span translate="acciones.guardar">Guardar</span>
+				</button>
+			</div>
+		</form>
+	</div>
+</div>
+
+<table ng-table="$ctrl.tableParams" class="table table-condensed" show-filter="true">
+
+    <tr ng-repeat="categoria in $data">
+        <td data-title="'entidad.categoria.nombre' | translate" filter="{ nombre: 'text'}" sortable="'nombre'">
+        	<input type="text" ng-if="categoria.edit" ng-model="categoria.nombre"></input>
+        	<span ng-if="!categoria.edit">{{categoria.nombre}}</span>
+        </td>
+        
+        <td>
+        	<div class="pull-right">
+        		<div ng-if="categoria.edit">
+        			<button type="button" class="btn btn-default" ng-click="$ctrl.cancelEdit(categoria)">
+						<i class="glyphicon glyphicon-repeat"></i>
+					</button>
+        			<button type="button" class="btn btn-primary" ng-click="$ctrl.save(categoria)">
+	        			<i class="glyphicon glyphicon-ok"></i>
+	        		</button>
+        		</div>
+        		<div ng-if="!categoria.edit">
+        			<button type="button" class="btn btn-primary" ng-click="$ctrl.edit(categoria)">
+	        			<i class="glyphicon glyphicon-pencil"></i>
+	        		</button>
+	        		<button type="button" class="btn btn-danger" ng-click="$ctrl.remove(categoria)">
+	        			<i class="glyphicon glyphicon-remove"></i>
+	        		</button>
+        		</div>
+        	</div>
+        </td>
+    </tr>
+</table>

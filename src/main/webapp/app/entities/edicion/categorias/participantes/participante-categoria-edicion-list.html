@@ -1,0 +1,31 @@
+<table has-any-authority="ROLE_USER" ng-table="$ctrl.tableParams" class="table">
+    <tr ng-repeat="participante in $ctrl.participantes">
+        <td title="'entidad.categoria.participante.nominado' | translate">
+            {{participante.nombre}}
+        </td>
+        <td class="text-center col-md-2" title="'entidad.categoria.participante.uno' | translate">
+	            <input type="radio" name="{{$ctrl.voto.idCategoriaEdicion}}_uno" ng-model="$ctrl.voto.uno" value="{{participante.id}}"/>
+        </td>
+        <td class="text-center col-md-2" title="'entidad.categoria.participante.dos' | translate">
+            <input type="radio" name="{{$ctrl.voto.idCategoriaEdicion}}_dos" ng-model="$ctrl.voto.dos" value="{{participante.id}}" />
+        </td>
+        <td class="text-center col-md-2" title="'entidad.categoria.participante.tres' | translate">
+            <input type="radio" name="{{$ctrl.voto.idCategoriaEdicion}}_tres" ng-model="$ctrl.voto.tres" value="{{participante.id}}" />
+        </td>
+    </tr>
+</table>
+
+<table has-any-authority="ROLE_ADMIN" ng-table="$ctrl.tableParams" class="table">
+    <tr ng-repeat="participante in $ctrl.participantes">
+        <td title="'entidad.categoria.participante.nominado' | translate">
+            {{participante.nombre}}
+        </td>
+        <td>
+        	<div class="pull-right">
+        		<button type="button" class="btn btn-danger" ng-click="$ctrl.remove(participante)">
+        			<i class="glyphicon glyphicon-remove"></i>
+        		</button>
+        	</div>
+        </td>
+    </tr>
+</table>

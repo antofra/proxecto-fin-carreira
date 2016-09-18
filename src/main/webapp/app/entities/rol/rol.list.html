@@ -1,0 +1,54 @@
+<h1 translate="entidad.rol.title">Roles</h1>
+
+<div class="row-fluid">
+	<div class="pull-right" ng-show="!$ctrl.showForm">
+		<button class="btn btn-primary" ng-click="$ctrl.crear()">
+			<i class="glyphicon glyphicon-plus"></i>
+			<span translate="acciones.crear">Crear Rol</span>
+		</button>
+	</div>
+
+	<div>
+		<form ng-show="$ctrl.showForm">
+			<div class="form-group">
+				<label translate="entidad.nombre">Nombre</label>
+				<input type="text" ng-model="$ctrl.rol.rol"></input>
+			</div>
+			
+			<div class="pull-right">
+				<button class="btn btn-default" ng-click="$ctrl.cancelar()" type="button">
+					<span translate="acciones.cancelar">Cancelar</span>
+				</button>
+				<button class="btn btn-primary" ng-click="$ctrl.guardar($ctrl.rol)">
+					<i class="glyphicon glyphicon-ok"></i>
+					<span translate="acciones.guardar">Guardar</span>
+				</button>
+			</div>
+		</form>
+	</div>
+</div>
+
+<table ng-table="$ctrl.tableParams" class="table">
+    <tr ng-repeat="role in $data">
+        <td data-title="'entidad.nombre' | translate" sortable="'rol'">
+             <span ng-if="!role.edit">{{role.rol}}</span>
+		     <input ng-if="role.edit" type="text" ng-model="role.rol"></input>
+        </td>
+        <td>
+        	<div class="pull-right">
+        		<button ng-if="role.edit" type="button" class="btn btn-default" ng-click="$ctrl.cancelarEditar(role)">
+					<i class="glyphicon glyphicon-repeat"></i>
+				</button>
+        		<button ng-if="!role.edit" type="button" class="btn btn-primary" ng-click="$ctrl.editar(role)">
+					<i class="glyphicon glyphicon-pencil"></i>
+				</button>
+				<button ng-if="role.edit" type="button" class="btn btn-primary" ng-click="$ctrl.guardar(role)">
+					<i class="glyphicon glyphicon-ok"></i>
+				</button>
+				<button ng-if="!role.edit" type="button" class="btn btn-danger" ng-click="$ctrl.eliminar(role)">
+					<i class="glyphicon glyphicon-remove"></i>
+				</button>
+        	</div>
+        </td>
+    </tr>
+</table>

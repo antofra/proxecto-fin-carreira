@@ -1,0 +1,38 @@
+<div class="row-fluid">
+	<h3>
+		<span translate="entidad.categoria.title">Categorías</span>
+		<i class="glyphicon pull-right" ng-click="$ctrl.show = !$ctrl.show"
+			ng-class="{'glyphicon-chevron-up' : $ctrl.show, 'glyphicon-chevron-down' : !$ctrl.show}" ></i>
+	</h3>
+</div>
+
+<hr>
+
+<div class="container-fluid" ng-show="$ctrl.show">
+	<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+	 	<div class="panel panel-default" ng-repeat="categoriaEdicion in $ctrl.edicion.categoriasEdicion">
+		    <div class="panel-heading" role="tab" id="headingOne">
+		    	<h4 class="panel-title">
+		        	<a role="button" data-toggle="collapse" data-parent="#accordion" data-target="#collapse{{categoriaEdicion.categoria.id}}" aria-expanded="true" aria-controls="collapseOne">
+		          		<autocomplete ng-if="!categoriaEdicion.categoria.id" local-data="$ctrl.categorias" model="categoriaEdicion.categoria"></autocomplete>
+		          		<span ng-if="categoriaEdicion.categoria.id">{{categoriaEdicion.categoria.nombre}}</span>
+		        	</a>
+			        <small class="pull-right">
+						<i class="glyphicon glyphicon-remove" ng-click="$ctrl.removeCategoriaEdicion(categoriaEdicion)"></i>
+					</small>
+		    	</h4>
+		    </div>
+		    <div id="collapse{{categoriaEdicion.categoria.id}}" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+		    	<div class="panel-body">
+		      		<categoria-edicion candidatos="$ctrl.edicion.candidatos" categoria-edicion="categoriaEdicion"></categoria-edicion>
+		       	</div>
+		    </div>
+		</div>
+	</div>
+	
+	<div class="pull-right">
+		<button type="button" class="btn btn-primary" ng-click="$ctrl.addCategoria()">
+			<i class="glyphicon glyphicon-plus"></i>
+		</button>		
+	</div>
+</div>

@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "angucomplete-alt": "^2.4.1"
+  },
+  "description": "",
+  "devDependencies": {
+    "bower": "^1.7.9",
+    "gulp": "^3.9.1",
+    "gulp-angular-filesort": "^1.1.1",
+    "gulp-inject": "^4.1.0",
+    "run-sequence": "^1.2.2",
+    "watch": "^0.19.1",
+    "wiredep": "^4.0.0"
+  },
+  "name": "concursos",
+  "scripts": {
+    "postinstall": "bower install && npm run build",
+    "wiredep": "wiredep -s src/main/webapp/index.html",
+    "build": "npm run wiredep & gulp build",
+    "build:watch": "watch 'npm run build' ."
+  },
+  "version": "0.1.0"
+}
